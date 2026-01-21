@@ -13,6 +13,7 @@ addProductButton.addEventListener("click", function(event){
     
     if (!productNameInput.checkValidity() || !productPriceInput.checkValidity()) {
     event.preventDefault();
+    alert("Please enter valid data in all required fields.")
     return;}
     
 
