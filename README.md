@@ -1,6 +1,4 @@
 
-Reflection Questions
-
 1. How did you dynamically create and append new elements to the DOM?
 Here JavaScript creates a new list items (<li>) whenever a user adds a product. First, it  reads the product name and price from the input fields. Then, it creates a new <li> element with document.createElement('li'); it adds the product information and a Remove button; and finally it stores the price using a data-price attribute. It then goes on to appending the new item to the cart using cart.appendChild(newItem). This allows each new product to appear dynamically in the list without reloading the page.
 
